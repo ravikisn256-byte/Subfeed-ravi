@@ -60,7 +60,7 @@ const SCOPE = "https://www.googleapis.com/auth/youtube.readonly";
 
 const $ = id => document.getElementById(id);
 let accessToken = null, channels = [], videos = [], nextPages = {}, filter = "all", loading = false;
-const configured = () => !API_KEY.startsWith("PASTE_") && !CLIENT_ID.startsWith("PASTE_");
+const configured = () => !API_KEY.startsWith("PASTE_") && !CLIENT_ID.startsWith("908630993274-aajs8mc6hc4usmvf47p09hnm8m4rbf0b.apps.googleusercontent.com");
 
 function showError(message){
   $("error").classList.remove("hidden");
